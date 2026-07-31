@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extension outputs
+*.so
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Streamlit local settings & secrets
+.streamlit/secrets.toml
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Model Binaries / Trained Artifacts
+# (Uncomment if models are large and stored via Git LFS, release assets, or generated on deployment)
+*.pkl
+
+# Project Data
+# (Uncomment if dataset contains proprietary data or exceeds GitHub's 100MB file limit)
+# *.csv
