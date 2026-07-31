@@ -1,0 +1,936 @@
+went_to_commodity_page=False
+hint_words=['karela', 'bitter gourd', 'bitter guard']
+
+[MATCH row 119] cells=['Bitter Gourd (کریلا)']
+    [row 119 +1] cells=['Batho']
+    [row 119 +2] cells=['Barley(جو)']
+    [row 119 +3] cells=['Banola Cake']
+    [row 119 +4] cells=['Banola']
+    [row 119 +5] cells=['Banana(DOZEN)']
+
+--- FULL PAGE HTML BELOW ---
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta name="keywords" content="Agriculture Commodity Daily Prices in Punjab Pakistan, Grains,Vegetables,Fruit Prices,rice,wheat,sugarcane,cotton,potato,tomato,ginger,garlic,groundnut,white grain, black grain,mash,moong, masoor puls,mango,apple,grapes,banana">
+<meta name="copyright" content="www.amis.pk">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/w3.css" type="text/css"><link href="css/StyleSheet.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-LR59Q4VC13&amp;cx=c&amp;_slc=1"></script><script src="https://connect.facebook.net/en_US/bundle/sdk.js/" async="" crossorigin="anonymous"></script><script id="facebook-jssdk" src="//connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v2.8"></script><script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="js/global.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-66071340-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+     <script type="text/javascript">
+         function price_addelement() {
+
+             var eleprice = document.getElementById("Prices");
+
+
+             if (eleprice.style.display == "block") {
+                 eleprice.style.display = "none";
+
+             } else {
+                 if (document.getElementById("pub1").style.display == "block" || document.getElementById("stakeholder").style.display == "block" || document.getElementById("import").style.display == "block") {
+                     document.getElementById("pub1").style.display = "none";
+                     document.getElementById("stakeholder").style.display = "none";
+                     document.getElementById("import").style.display = "none";
+                     // document.getElementById("contacts").style.display = "none"
+                 }
+                 eleprice.style.display = "block";
+
+             }
+             //alert(myUL);
+         }
+
+         function pub() {
+
+
+
+             var i;
+             var ele = document.getElementById("pub1");
+
+
+             if (ele.style.display == "block") {
+                 ele.style.display = "none";
+             } else {
+                 if (document.getElementById("Prices").style.display == "block" || document.getElementById("stakeholder").style.display == "block" || document.getElementById("import").style.display == "block") {
+                     document.getElementById("Prices").style.display = "none";
+                     document.getElementById("stakeholder").style.display = "none";
+                     document.getElementById("import").style.display = "none";
+                     //   document.getElementById("contacts").style.display = "none"
+                 }
+
+                 ele.style.display = "block";
+             }
+
+
+
+         }
+
+         function stake() {
+
+
+
+
+             var stakeele = document.getElementById("stakeholder");
+
+
+             if (stakeele.style.display == "block") {
+                 stakeele.style.display = "none";
+             } else {
+
+                 if (document.getElementById("Prices").style.display == "block" || document.getElementById("pub1").style.display == "block" || document.getElementById("import").style.display == "block") {
+                     document.getElementById("Prices").style.display = "none";
+                     document.getElementById("pub1").style.display = "none";
+                     document.getElementById("import").style.display = "none";
+                     //document.getElementById("contacts").style.display = "none"
+                 }
+                 stakeele.style.display = "block";
+             }
+
+
+
+         }
+
+            function stat() {
+    
+    
+    
+    
+                var contactele = document.getElementById("stats");
+    
+    
+                if (contactele.style.display == "block") {
+                    contactele.style.display = "none";
+                } else {
+                
+                            if (document.getElementById("Prices").style.display == "block" || document.getElementById("pub1").style.display == "block" || document.getElementById("import").style.display == "block" || document.getElementById("stakeholder").style.display == "block") {
+                    document.getElementById("Prices").style.display = "none";
+                    document.getElementById("pub1").style.display = "none";
+                    document.getElementById("import").style.display = "none";
+                    document.getElementById("stakeholder").style.display = "none"
+                }
+                    contactele.style.display = "block";
+                }
+    
+    
+    
+            }
+         function importe() {
+
+
+
+
+             var contactele = document.getElementById("import");
+
+
+             if (contactele.style.display == "block") {
+                 contactele.style.display = "none";
+             } else {
+                 if (document.getElementById("Prices").style.display == "block" || document.getElementById("pub1").style.display == "block" ) {
+                     document.getElementById("Prices").style.display = "none";
+                     document.getElementById("pub1").style.display = "none";
+                     document.getElementById("contacts").style.display = "none";
+                     //document.getElementById("stakeholder").style.display = "none"
+                 }
+                 contactele.style.display = "block";
+             }
+
+
+
+         }
+        </script>
+     <style>
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 05px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+  background-color: #9933cc;
+  color: #ffffff;
+  padding: 05px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.aside {
+  background-color: #33b5e5;
+  padding: 05px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+  background-color: #0099cc;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 00px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 550px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 800px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+</style>
+
+<title>
+	Agricultural Commodity Prices
+</title><style type="text/css" data-fbcssmodules="css:fb.css.base css:fb.css.dialog css:fb.css.iframewidget">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0px;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:lucida grande,tahoma,verdana,arial,sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:400;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{0%{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+
+.fb_dialog{background:#525252b3;position:absolute;top:-10000px;z-index:10001}.fb_dialog_advanced{border-radius:8px;padding:10px}.fb_dialog_content{background:#fff;color:#373737}.fb_dialog_close_icon{background:url(https://connect.facebook.net/rsrc.php/v4/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{left:5px;right:auto;top:5px}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://connect.facebook.net/rsrc.php/v4/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://connect.facebook.net/rsrc.php/v4/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:700;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://connect.facebook.net/rsrc.php/v4/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{height:100%;left:0;margin:0;overflow:visible;position:absolute;top:-10000px;transform:none;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://connect.facebook.net/rsrc.php/v4/ya/r/3rhSv5V8j3o.gif) #fff no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{background:none;height:auto;min-height:initial;min-width:initial;width:auto}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{clear:both;color:#fff;display:block;font-size:18px;padding-top:20px}#fb-root #fb_dialog_ipad_overlay{background:#0006;inset:0;min-height:100%;position:absolute;width:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_mobile .fb_dialog_iframe{position:sticky;top:0}.fb_dialog_content .dialog_header{background:linear-gradient(from(#738aba),to(#2c4987));border-bottom:1px solid;border-color:#043b87;box-shadow:#fff 0 1px 1px -1px inset;color:#fff;font:700 14px Helvetica,sans-serif;text-overflow:ellipsis;text-shadow:rgba(0,30,84,.296875) 0px -1px 0px;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:linear-gradient(from(#4267B2),to(#2a4887));background-clip:padding-box;border:1px solid #29487d;border-radius:3px;display:inline-block;line-height:18px;margin-top:3px;max-width:85px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{background:none;border:none;color:#fff;font:700 12px Helvetica,sans-serif;margin:2px -12px;padding:2px 6px 3px;text-shadow:rgba(0,30,84,.296875) 0px -1px 0px}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:700;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://connect.facebook.net/rsrc.php/v4/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #4A4A4A;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f5f6f7;border:1px solid #4A4A4A;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://connect.facebook.net/rsrc.php/v4/y2/r/onuUJj0tCqE.png);background-position:50% 50%;background-repeat:no-repeat;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0)}to{transform:rotate(360deg)}}
+
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}
+</style></head>
+<body id="home">
+
+<script language="javascript" src="AJAX/CommunityBar.ashx" type="text/javascript">
+</script>
+
+
+
+<form method="post" action="./ViewPrices.aspx?searchType=1&amp;commodityId=109" id="aspnetForm">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE4OTU0Mzk1MzMPFgIeE1ZhbGlkYXRlUmVxdWVzdE1vZGUCARYCZg9kFgICAw9kFgQCEA9kFgQCCg8QZBAVhAEcWnVjY2hpbmkgKNqv2r7bjNinINiq2YjYsduMKQtXaGVhdCBTdHJhdwVXaGVhdApXYXRlcm1lbG9uHldhdGVyIGNoZXN0bnV0KNiz2Ybar9q+2KfakdinKQZUdXJuaXAhVHVybWVyaWMgV2hvbGUo2KvYp9io2Kog24HZhNiv24wpBlRvbWF0bwdUaW5kaWFuClRpbmRhIERlc2kdU3dlZXQgUG90YXRvKNi02qnYsSDZgtmG2K/bjCkaU3dlZXQgTXVzayBNZWxvbiAoU2hpcmVlbikQU3dlZXQgTXVzayBNZWxvbglTdW5mbG93ZXIWU3VnZXIgQmVldCjahtmC2YbYr9ixKRhzdWdhcmNhbmUo2q/ZhtqIINuM2LHbjCkFU3VnYXIKU3RyYXdiZXJyeQdTcGluYWNoB1NvcmdodW0OU2VzYW1lKNiq2ZDZhCkTU2VlZCBDb3R0b24oUGh1dHRpKRFSaWNlIEthaW5hdCAoTmV3KRhSaWNlIEJhc21hdGkgU3VwZXIgKE9sZCkYUmljZSBCYXNtYXRpIFN1cGVyIChOZXcpElJpY2UgQmFzbWF0aSAoMzg1KQtSaWNlIChJUlJJKRZSZWQgQ2hpbGxpIFdob2xlIChEcnkpEFJhcGVTZWVkIChUb3J5YSkGUmFkaXNoB1B1bXBraW4RUG90YXRvIFN1Z2FyIGZyZWUMUG90YXRvIFN0b3JlDFBvdGF0byBGcmVzaBVQb21lZ3JhbmF0ZShLYW5kaGFyaSkTUG9tZWdyYW5hdGUoQmFkYW5hKRBQb21lZ3JhbmF0ZSBEZXNpBFBsdW0eUGVyc2ltbW9uKNis2KfZvtin2YbbjCDZvtq+2YQpBFBlYXMEUGVhcg1QZWFjaCBTcGVjaWFsBVBlYWNoElBhcGF5YSjZvtm+24zYqtinKQxQYWRkeSBLYWluYXQNUGFkZHkgQmFzbWF0aQxQYWRkeSAoSVJSSSkOT3JhbmdlKDEwMFBjcykFT25pb24MTXVzdGFyZCBzZWVkIU11c3RhcmQgR3JlZW5zKNiz2KfaryDYs9ix2LPZiNq6KQ9NdXNhbWJpKDEwMFBjcykLTW9vbmcgUHVsc2UFTW9vbmcHTW9uZ3JheRJNaW50KNm+2YjYr9uM2YbbgSkGTWlsbGV0BU1lbG9uE01hc29vciBXaG9sZShsb2NhbCkXTWFzb29yIFdob2xlIChJbXBvcnRlZCkTTWFzb29yIFB1bHNlKGxvY2FsKRdNYXNvb3IgUHVsc2UgKEltcG9ydGVkKRFNYXNoIFB1bHNlKGxvY2FsKRtNYXNoIFB1bHNlKEltcG9ydGVkKSB3YXNoZWQETWFzaA5NYW5nbyhTaW5kaHJpKQ5NYW5nbyhEZXNhaHJpKQ5NYW5nbyhDaG91bnNhKRJNYW5nbyhBbndlciBSYXRvbCkNTWFuZ28gU2FoYXJuaQpNYW5nbyBEZXNpDU1hbmdvIChNYWxkYSkFTWFpemUGTHljaGVlBkxvcXVhdA1MZW1vbiAoT3RoZXIpDExlbW9uIChEZXNpKQ1MZW1vbiAoQ2hpbmEpJkxhZHkgRmluZ2VyL09rcmEgKNio2r7ZhtqI24wg2KrZiNix24wpD0tpbm5vdyAoMTAwUGNzKQ5qdWp1YmUo2KjbjNixKQVKYW1hbg5KYWdnZXJ5ICjar9qRKQVHdWF2YQlHcm91bmRudXQLR3JlZW4gT25pb24MR3JlZW4gRm9kZGVyDEdyZWVuIENoaWxsaR1ncmVlbiBjaGlja3BlYXMo2obavtmI2YTbjNinKRFHcmFwZXMgU3VuZGVraGFuaQtHcmFwZXMgR29sYQ5HcmFwZXMgKE90aGVyKRJHcmFwZWZydWl0KDEwMFBjcykRR3JhbSBXaGl0ZShsb2NhbCkUR3JhbSBXaGl0ZShJbXBvcnRlZCkKR3JhbSBQdWxzZRVHcmFtIEZsb3VyICjYqNuM2LPZhikKR3JhbSBCbGFjaw1HaW5nZXIoQ2hpbmEpDUdpbmdlciAoVGhhaSkOR2FybGljIChMb2NhbCkOR2FybGljIChDaGluYSkhZmV1dHJhbCBlYXJseSgxMDAgUGNzKSDZgdix2YjZudixFUZlbnVncmVlayjZhduM2KravtuMKQxEYXRlcyhJcmFuaSkNRGF0ZXMgKEFzZWVsKRFDdWN1bWJlciAoS2hlZXJhKRZDb3JpYW5kZXIgKNiv2r7ZhtuM2KcpB0NvY3VudXQRQ29jb3lhbSjYp9ix2YjbjCkLQ2F1bGlmbG93ZXIMQ2Fycm90IENoaW5hBkNhcnJvdBpDYXBzaWN1bSAo2LTZhdmE24Eg2YXYsdqGKQZDYW5vbGEHQ2FiYmFnZRNCcm93biBTdWdhcijYtNqp2LEpB0JyaW5qYWwVQm90dGxlIEdvdXJkICjaqdiv2YgpGUJpdHRlciBHb3VyZCAo2qnYsduM2YTYpykFQmF0aG8MQmFybGV5KNis2YgpC0Jhbm9sYSBDYWtlBkJhbm9sYQ1CYW5hbmEoRE9aRU4pDkFwcmljb3QgWWVsbG93DUFwcmljb3QgV2hpdGUZQXBwbGUgS2FsYSBLdWxsdSAoUGFoYXJpKRlBcHBsZSBLYWxhIEt1bGx1IChNYWRhbmkpDkFwcGxlIChHb2xkZW4pDkFwcGxlIChHYXRjaGEpDUFwcGxlIChBbW1yZSkVhAEDMTAzAjUzATECNzYDMTM3AjM2AzEyMwIyNgMxMzUCMzIDMTExAzEwMQMxMDADMTE2AzEzNgMxMjUBNwI4MAIyNwIxOQMxMTgCNDkDMTEzAjU3ATMCNTgBNAIyOQIyMAIzNwIzMwMxMzQCMjICMjECNDYCNTkCOTUCOTADMTEwAjM1Ajk4Ajg5Ajg4AzEyNAMxMTIBNQE2AjQ0AjIzAzEyMgMxMDgCNjACMTICMTEDMTA2AzExNQIxOAI3NQIxNQI3MAIxNgI3MgI2NgIxNAIxMwI1NgI1NQI0OAI2MgI5MQI5MgI3OAIxNwI3OQMxNDACODMCODYCODcCMzACNDUDMTE5AzEwNAI2NQI0MwI2MwMxMjkCNTICODQDMTI2Ajk3Ajk2AjQ3AjYxATgCNjcCMTACOTkBOQIyNQI2OAI3MwIyNAMxMjgDMTA1AzE0MQI4MQI3NAMxMTQDMTIwAzEwNwIzNAMxMDkCMzgCODUDMTE3AjY0AzEyNwIyOAMxMDICMzEDMTMwAzEzOAI1MQI1MAI0MgI5MwI5NAIzOQI3NwI0MAI4MgI0MRQrA4QBZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZGQCFA8WAh4JaW5uZXJodG1sBc0EIDx0YWJsZSBib3JkZXI9JzAnICBjZWxscGFkZGluZz0nMCcgY2VsbHNwYWNpbmc9JzAnIHdpZHRoPSclMTAwJz48dHIgc3R5bGU9ImJhY2tncm91bmQtY29sb3I6I0ZGRkZFMDtmb250LWZhbWlseTp2ZXJkYW5hOyI+PHRkIHN0eWxlPSJib3JkZXItcmlnaHQ6IDFweCBzb2xpZCBibGFjaztmb250LWZhbWlseTp2ZXJkYW5hOyI+Jm5ic3A7RGF0ZWQ6MzEtMDctMjAyNjwvdGQ+PHRkIHN0eWxlPSJib3JkZXItcmlnaHQ6IDFweCBzb2xpZCBibGFjaztmb250LWZhbWlseTp2ZXJkYW5hOyI+Jm5ic3A7R3JhcGg8L3RkPjx0ZCBzdHlsZT0iYm9yZGVyLXJpZ2h0OiAxcHggc29saWQgYmxhY2s7Zm9udC1mYW1pbHk6dmVyZGFuYTsiPiZuYnNwO01pbjwvdGQ+PHRkIHN0eWxlPSJib3JkZXItcmlnaHQ6IDFweCBzb2xpZCBibGFjaztmb250LWZhbWlseTp2ZXJkYW5hOzsiPiZuYnNwO01heDwvdGQ+PHRkIHN0eWxlPSJib3JkZXItcmlnaHQ6IDFweCBzb2xpZCBibGFjaztmb250LWZhbWlseTp2ZXJkYW5hOyI+Jm5ic3A7RlFQPC90ZD48dGQgc3R5bGU9ImZvbnQtZmFtaWx5OnZlcmRhbmE7Ij4mbmJzcDtRdWFudGl0eTwvdGQ+PC90cj48L3RhYmxlPmQCEg9kFgRmD2QWAmYPDxYCHghJbWFnZVVybAUraHR0cDovL3d3dy5hbWlzLnBrL2ltYWdlcy9hbWlzLXVyZHUtbmV3LnBuZ2RkAgEPDxYCHwIFI2h0dHA6Ly93d3cuYW1pcy5way9pbWFnZXMvbmV3MzguZ2lmZGQYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFoUBBRhjdGwwMCRjcGhQYWdlJExpc3RCb3gyJDAFGGN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkMQUYY3RsMDAkY3BoUGFnZSRMaXN0Qm94MiQyBRhjdGwwMCRjcGhQYWdlJExpc3RCb3gyJDMFGGN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkNAUYY3RsMDAkY3BoUGFnZSRMaXN0Qm94MiQ1BRhjdGwwMCRjcGhQYWdlJExpc3RCb3gyJDYFGGN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkNwUYY3RsMDAkY3BoUGFnZSRMaXN0Qm94MiQ4BRhjdGwwMCRjcGhQYWdlJExpc3RCb3gyJDkFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkMTAFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkMTEFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkMTIFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkMTMFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkMTQFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkMTUFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkMTYFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkMTcFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkMTgFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkMTkFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkMjAFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkMjEFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkMjIFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkMjMFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkMjQFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkMjUFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkMjYFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkMjcFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkMjgFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkMjkFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkMzAFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkMzEFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkMzIFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkMzMFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkMzQFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkMzUFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkMzYFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkMzcFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkMzgFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkMzkFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkNDAFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkNDEFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkNDIFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkNDMFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkNDQFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkNDUFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkNDYFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkNDcFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkNDgFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkNDkFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkNTAFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkNTEFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkNTIFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkNTMFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkNTQFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkNTUFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkNTYFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkNTcFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkNTgFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkNTkFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkNjAFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkNjEFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkNjIFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkNjMFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkNjQFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkNjUFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkNjYFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkNjcFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkNjgFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkNjkFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkNzAFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkNzEFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkNzIFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkNzMFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkNzQFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkNzUFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkNzYFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkNzcFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkNzgFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkNzkFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkODAFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkODEFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkODIFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkODMFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkODQFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkODUFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkODYFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkODcFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkODgFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkODkFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkOTAFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkOTEFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkOTIFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkOTMFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkOTQFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkOTUFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkOTYFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkOTcFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkOTgFGWN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkOTkFGmN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkMTAwBRpjdGwwMCRjcGhQYWdlJExpc3RCb3gyJDEwMQUaY3RsMDAkY3BoUGFnZSRMaXN0Qm94MiQxMDIFGmN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkMTAzBRpjdGwwMCRjcGhQYWdlJExpc3RCb3gyJDEwNAUaY3RsMDAkY3BoUGFnZSRMaXN0Qm94MiQxMDUFGmN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkMTA2BRpjdGwwMCRjcGhQYWdlJExpc3RCb3gyJDEwNwUaY3RsMDAkY3BoUGFnZSRMaXN0Qm94MiQxMDgFGmN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkMTA5BRpjdGwwMCRjcGhQYWdlJExpc3RCb3gyJDExMAUaY3RsMDAkY3BoUGFnZSRMaXN0Qm94MiQxMTEFGmN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkMTEyBRpjdGwwMCRjcGhQYWdlJExpc3RCb3gyJDExMwUaY3RsMDAkY3BoUGFnZSRMaXN0Qm94MiQxMTQFGmN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkMTE1BRpjdGwwMCRjcGhQYWdlJExpc3RCb3gyJDExNgUaY3RsMDAkY3BoUGFnZSRMaXN0Qm94MiQxMTcFGmN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkMTE4BRpjdGwwMCRjcGhQYWdlJExpc3RCb3gyJDExOQUaY3RsMDAkY3BoUGFnZSRMaXN0Qm94MiQxMjAFGmN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkMTIxBRpjdGwwMCRjcGhQYWdlJExpc3RCb3gyJDEyMgUaY3RsMDAkY3BoUGFnZSRMaXN0Qm94MiQxMjMFGmN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkMTI0BRpjdGwwMCRjcGhQYWdlJExpc3RCb3gyJDEyNQUaY3RsMDAkY3BoUGFnZSRMaXN0Qm94MiQxMjYFGmN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkMTI3BRpjdGwwMCRjcGhQYWdlJExpc3RCb3gyJDEyOAUaY3RsMDAkY3BoUGFnZSRMaXN0Qm94MiQxMjkFGmN0bDAwJGNwaFBhZ2UkTGlzdEJveDIkMTMwBRpjdGwwMCRjcGhQYWdlJExpc3RCb3gyJDEzMQUaY3RsMDAkY3BoUGFnZSRMaXN0Qm94MiQxMzFTqcWeZ3FFLuttmg9hjlgnv3+efg==">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=5d5KGRMAyLvBqg6D0Z6Xhj3Bik0iH8Qt5h7ZqLwbqRWMcG_QNGx9uHHYTzhIEQhPxWH_P8u88WPt72kX0&amp;t=639092540354321730" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=E5Nh7CGv-JXsD7TGCbMnp9X0NZfqQumN5CHzc1IN0NOJCLO7bbHbvtjjio7SjPVmndNdjUC3o24MT6V2CVqAr1dLFFem5rGRj4SPdyKL1RPihJi2Etsi3gfyhI3_-_NF6791cbEpEwEtRkQN5nfPIXxhjFEalneJHd7xkQ2&amp;t=d41bf5a" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=VwJ6-9zxk6gcOeAm1Dpq8bTY_bQZb84Nz4E9dE1qUfIp5ZX5B9m3NWeMMVZFVkaUcjI1wgWg6YF6kFn0YlEKdq7idmJSUsvGqhTBbtGJOAqxV6JTmMGE4NvYeDgdvkT3JhgIIpWqSLVpSnD9fTUvPMHfNkKzu8SoDBugrzpPdgZMyRFZ0&amp;t=d41bf5a" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=LfKTKBRe0feZeq6q97EaKGl5dOOwUE7ZFjh2AI_oHvdMy9VbV49Yke5u5BYbn3TD80Rlx1mi11LIQBqu5Y2vM8o5KptMzYb5aWBgIm7MBn4-tY8PaX32sJozeA3xlC__WU-pdg2&amp;t=ffffffffb56adc1f" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=tQ0CnYVsPzy-qNo8X9OQOE0DinAASDAKMsZq3bhEFk4qeIPzGQxK7uSZf3wuOyLOcQMevyfsi9Q7nxV6NgwY_8HYrJgPH-hHeFTzaWW2IFuegScJ0&amp;t=ffffffffb56adc1f" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=C9SI8VZMAC2baWswoXTKXsKdvkW1QIhO0h_X_BQ_VIq_Sua3ILIrip0nEeeLt12AmMdgEpvgPpbliswPtGtMziVcf-G0Ouec3in2KQx6LxN97oEj87HL_fVF_S41&amp;t=ffffffffb56adc1f" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=zbYCUyfWHaI9LKA2e_XBicIa-7ceGYNhc5sNifBhT7cjm0kfHZ0EC_vs6ktYztWJU_4_S85E734ma4Nyww3crIuS1ATgUYpzoicrR2zxLEGTgYOV8AggeVJjWxM1&amp;t=ffffffffb56adc1f" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=XV3xR7ftMh8qUPcFUEUtuxvoFq36fgHmKw3jcRsWcn4w7DUeeK-2oreQvLVkZiippPtaBDDBb8toDakaDeN0J6t0cmZOzK47C2XhG4MRAxykiPrA-Fw-scPEPsU1&amp;t=ffffffffb56adc1f" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=cgU3Wh6H-EzuHc_qsIGnY7pFtti2iChGsIUHZwSIVGQtaAWAvG9mFEBPekYnpojxk5XqXoegFah8mVc5r6aJ-DC5c3MxuMDKPOWDImXXtKSdX2VBm9fh8tRhIGY1&amp;t=ffffffffb56adc1f" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=9sv0y0PaGAAGrQ5LA_ObtHoGBthJYmjQHJk4h-cbZFrrbXZsEodWdrgt8YVKYOoHI99vNcUQABnnvtD0217gNSpLTP2wRqLrlkws8rZf5m5oyed10&amp;t=ffffffffb56adc1f" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=8e3OrtgamKueLYq_29eUM_hmTyKV7VQU2If451FF3odLwhfPAOxSAUFQ0-_dekA0uaO8sIVaR1Wxi7BPGvKNtRxIXpiCjNvHKqyvL4RwQZo5Rw6G0&amp;t=ffffffffb56adc1f" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=SF_wbjZasrYdNRS2vZKc_n1kI--26mubiEfrRcYV9X7oyuU3XMj606jEg98zeJk__iPOxP7i5n0eKqm4ZNXChbK0fbSxj5pnE5g7kqkhmlfPGzb0ggB7sQjBsmU1&amp;t=ffffffffb56adc1f" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=wRL9GHZFEkLqKd5dmfyR6nBmiCHdkDAl2gAdbRwkerKi5dXnII934yERrB_d2kf_KS1txFksDt_R76BeIXdjkdyQRYPA5gPHdZkoFxzg4J63trPiGXAWpDJ4lxw1&amp;t=ffffffffb56adc1f" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="DD2094E3">
+</div>
+
+<div id="wrapper1">
+<div id="container" style="text-align: left">
+   
+      <!-- BEGIN PAGE HEADER MODULE -->
+     
+    <div id="content-header-wrapper"><span class="site-breadcrumb" id="ctl00_ctlSiteTabsTop_SiteMapPath1"><span></span><span style="padding-left:15%"> <a href="../Default.aspx" style="padding-right:-20%">AMIS Home</a>
+&gt; </span><span></span><a id="ctl00_ctlSiteTabsTop_SiteMapPath1_SkipLink"></a></span> 
+                      <div id="picklanguage" style=" margin-top:-13%">                  <p><a id="ctl00_hyperlinkEnglish" class="language-poster-button-active" href="default.aspx">English</a>  <a id="ctl00_hyperlinkUrdu" href="Defaulturdu.aspx">اردو</a> </p>
+                          </div>
+         <div id="nav-utility1">
+<p>
+
+              
+                    </p><div style="text-align:right">    Not logged in |
+						<a id="ctl00_LoginView2_linkLogin" class="infoTextSmall" href="/login.aspx?ReturnUrl=%2fViewPrices.aspx%3fsearchType%3d1%26commodityId%3d109"></a>
+                        |
+                        <a id="ctl00_LoginView2_linkRegister" class="infoTextSmall" href="/account/Register.aspx"></a>
+                    </div>
+					
+
+                                            
+                                            <p></p></div>
+        </div>
+    <img src="/images/Header.jpg" style="width:100%">
+<div id="colcx1" style="text-align: left">
+    <div> <br>
+        <br>
+        <br>
+    </div>
+
+  <div class="row">
+  <div class="col-3 col-s-3 menu"> 
+            <div class="sidebar">
+                <div class="sidebarheader">Services</div>
+                <div id="master_sidebarServices" class="sidebarcontent" style="text-align: left;padding-top:0;padding-bottom:0; padding-left:0">
+                 
+
+
+                        <div id="navigation1">
+ <ul id="mainmanu">
+
+ <li onclick="price_addelement()" id="pricehead"><a href="javascript:void(0);">Auction/WholeSale Prices</a>
+ <ul class="content1" id="Prices">
+ <li>
+                     <a href="http://www.amis.pk/DistrictCities.aspx">Prices By City</a>
+</li>
+     <li>
+                    
+                    <a href="http://www.amis.pk/BrowsePrices.aspx?searchType=0">Prices by Commodity</a>
+               </li>
+     <li>
+                    
+                    <a href="http://www.amis.pk/Daily%20Market%20Changes.aspx">Daily Price Change</a>
+                   </li>
+     <li>
+                   
+                    <a href="http://www.amis.pk/Reports/DistrictMC.aspx">Prices of 36 District Markets</a>
+                    </li>
+     <li>
+                    <a href="http://www.amis.pk/Reports/DistrictMajor.aspx">Prices of 10 Major Markets</a>
+                    
+         </li>
+         <li>
+                    
+                    <a href="http://www.amis.pk/DailyTrendAcrossPunjab.aspx">Commodity Price Trend across Punjab</a>
+                    </li>
+
+     <li>
+                   
+                    <a href="http://www.amis.pk/Price%20Trends.aspx">Commodity Price Trend over Day</a>
+                    </li>
+     <li>
+                   
+                    <a href="http://www.amis.pk/Prices.aspx?toptabid=1&amp;tabid=0">Price Reports</a>
+                    </li>
+
+     <li>
+                   
+                    <a href="http://www.amis.pk/HistoricalPrices.aspx">Historical Prices</a>
+                    </li>
+   
+ </ul>
+ </li>
+<li><a href="http://www.amis.pk/Arrivalreports">Arrival Quantity Reports</a></li>
+<li onclick="stat()"><a href="javascript:void(0);">Agri Statistics</a>
+   <ul class="content1" id="stats"> 
+     <li><a href="http://www.amis.pk/Agristatistics/Statistics.aspx">Crop Wise Statistics</a></li>
+     <li><a href="http://www.amis.pk/Agristatistics/Condiments.aspx">Fruit &amp; Vegetable Condiments</a></li>
+ </ul>
+         </li>
+      <li><a href="http://www.amis.pk/Agristatistics/DistrictWise/DistrictWiseData.aspx">District Wise Crop Data</a></li>
+      
+      <li>
+                             
+                    <a href="http://www.amis.pk/Reports/InternationCommodityPriceReports.aspx">International Commodity Prices</a>
+                    </li>
+  
+             
+     <li><a href="http://www.amis.pk/Crop%20Data/Select%20Year.aspx">World Crop Data</a></li>
+       
+     <li onclick="importe()"><a href="javascript:void(0);">Import/Export</a>
+   <ul class="content1" id="import"> 
+     <li><a href="/Import and Export of Agricultural Commodities/ImportAndExport.html">Import/Export of Agri Commodities</a></li>
+     <li><a href="http://www.amis.pk/FBS/PBS.aspx">Import and Export Statistics</a></li>
+ </ul>
+         </li>
+     <li><a href="http://www.amis.pk/Agristatistics/SupportPrice/Default.aspx">Support Price</a></li>
+ 
+<li><a href="/PostHarvestPractise.aspx">Post Harvest Practices</a></li>
+<li><a href="/PrefeasibilityStudies.aspx">Pre-Feasibility Studies</a></li>
+<li><a href="/QualityStandards.aspx">Quality Standards</a></li>
+ <li><a href="/pdf/CropPattern.pdf">Crop Harvest Calendar</a></li>
+     <li><a href="http://www.amis.pk/FoodProcessing.aspx">Food Processing</a></li>
+<li><a href="/Laws.aspx">Laws/Ordinance/Notifications</a></li>
+
+     
+     <li onclick="pub()"> <a href="javascript:void(0);">Publications</a>
+   <ul class="content1" id="pub1"> 
+<li><a href="http://www.amis.pk/Marketingroundupyearwise.aspx">Market Roundups</a></li>
+<li><a href="http://www.amis.pk/Market%20Analysis.aspx">Supply and Price Analysis</a></li>
+<li><a href="http://www.amis.pk/Publications.aspx">Research Reports</a></li>
+       <li><a href="http://www.amis.pk/Trainingmanual.aspx">Training Manual</a></li>
+
+   </ul> 
+</li>
+      <li><a href="/FoodInFocus.aspx">Food In Focus</a></li> 
+     <li><a href="javascript:window.open('https://play.google.com/store/apps/details?id=pitb.gov.pk.amis','Android'); void(0);">Download Android Application</a></li>
+   <li><a href="/PAMRA.aspx">PAMRA</a></li> 
+       
+      <li><a href="/Contacts.aspx">Departmental Contact</a>
+    
+</li>
+
+    
+   
+       <li><a href="http://www.amis.pk/PDF/Markets in the Punjab.pdf">Fruit, Vagetable and Grain Markets</a></li> 
+    
+      <li onclick="stake()"><a href="javascript:void(0);">StakeHolders Contact</a>
+   <ul class="content1" id="stakeholder"> 
+<li><a href="/ListOfStakeholders/list_of_traders_and_exporters.html">List of Exporters and Traders</a></li>
+<li><a href="/AgriMarketingStakeholders/AgriMarketingStakeholders.aspx">List of AgriMarketing Stakeholders</a></li>
+<li><a href="/AgroIndustries.aspx">Agro-Based Industries</a></li>
+   </ul> </li>
+    <li><a href="/Aboutus.aspx">About Us</a></li>
+
+         
+ 
+    
+
+ </ul>
+ 
+ </div>  
+                </div>
+            </div>
+            
+            
+            
+            <div class="sidebar">
+                <div class="sidebarheader">Markets</div>
+                <div id="master_sidebarWalkthroughs" class="sidebarcontent" style="text-align: left;padding-top:0;padding-bottom:0; padding-left:0">
+             
+
+
+                    <div id="navigationdataentry1">
+ 
+  <ul>
+ <li>
+                     <a href="/Markets/Dashboard.aspx" title="Data Entry MC DashBoard">Data Entry MC DashBoard</a></li>
+   
+   
+
+     
+
+
+<li>
+                     <a href="/IntlCommodityPrices/CommodityPrices.aspx" title="Enter International market prices">Enter International Market Prices</a></li>
+     
+<li>
+                     <a href="/Todays Unavailable Commodities.aspx">Today's Unavailable Commodities</a></li>
+     <li>
+                     <a href="/RateStatistics.aspx">Daily Rate Upload Time</a></li>
+
+      
+
+     </ul>
+     </div>
+                </div>
+            </div>
+     
+      </div>
+<div class="col-9 col-s-9">
+<div class="colpadding">
+<div id="master_content">
+
+            <div id="master_contentplaceholder">
+    
+<script type="text/javascript">
+    
+</script>
+    <div class="demoarea"><b> Auction/Wholesale Price List of Agricultural Commodities of Today/Selected Date at Wholesale Market/Mandi</b>
+   <div class="miniRatings" id="ctl00_tb1_Panel1">
+<div class="miniRatings_left" id="ctl00_tb1_miniRatings_left"> 
+
+    <a href="Printer.aspx?searchType=1&amp;commodityId=109"><img id="ctl00_tb1_imgPrint" style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px" src="images/rtg_print.gif">Printer Friendly Version</a>
+</div>
+
+</div>
+        
+  
+
+     
+           
+ <b>   Enter date to select old prices:</b> <input name="ctl00$cphPage$DateTextBox" type="text" value="07/31/2026" id="ctl00_cphPage_DateTextBox" style="width:80px;">
+
+    
+    <br>
+
+    Select Commodity or Markets(*No need to select for all)&nbsp;<br> <div style="width:150px; height:150px; padding:2px; overflow:auto; border: 1px solid #ccc; background-color:white; ">   <table id="ctl00_cphPage_ListBox2" style="width:140px;">
+	<tbody><tr>
+		<td><input id="ctl00_cphPage_ListBox2_0" type="checkbox" name="ctl00$cphPage$ListBox2$0" value="103"><label for="ctl00_cphPage_ListBox2_0">Zucchini (گھیا توری)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_1" type="checkbox" name="ctl00$cphPage$ListBox2$1" value="53"><label for="ctl00_cphPage_ListBox2_1">Wheat Straw</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_2" type="checkbox" name="ctl00$cphPage$ListBox2$2" value="1"><label for="ctl00_cphPage_ListBox2_2">Wheat</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_3" type="checkbox" name="ctl00$cphPage$ListBox2$3" value="76"><label for="ctl00_cphPage_ListBox2_3">Watermelon</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_4" type="checkbox" name="ctl00$cphPage$ListBox2$4" value="137"><label for="ctl00_cphPage_ListBox2_4">Water chestnut(سنگھاڑا)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_5" type="checkbox" name="ctl00$cphPage$ListBox2$5" value="36"><label for="ctl00_cphPage_ListBox2_5">Turnip</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_6" type="checkbox" name="ctl00$cphPage$ListBox2$6" value="123"><label for="ctl00_cphPage_ListBox2_6">Turmeric Whole(ثابت ہلدی)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_7" type="checkbox" name="ctl00$cphPage$ListBox2$7" value="26"><label for="ctl00_cphPage_ListBox2_7">Tomato</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_8" type="checkbox" name="ctl00$cphPage$ListBox2$8" value="135"><label for="ctl00_cphPage_ListBox2_8">Tindian</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_9" type="checkbox" name="ctl00$cphPage$ListBox2$9" value="32"><label for="ctl00_cphPage_ListBox2_9">Tinda Desi</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_10" type="checkbox" name="ctl00$cphPage$ListBox2$10" value="111"><label for="ctl00_cphPage_ListBox2_10">Sweet Potato(شکر قندی)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_11" type="checkbox" name="ctl00$cphPage$ListBox2$11" value="101"><label for="ctl00_cphPage_ListBox2_11">Sweet Musk Melon (Shireen)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_12" type="checkbox" name="ctl00$cphPage$ListBox2$12" value="100"><label for="ctl00_cphPage_ListBox2_12">Sweet Musk Melon</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_13" type="checkbox" name="ctl00$cphPage$ListBox2$13" value="116"><label for="ctl00_cphPage_ListBox2_13">Sunflower</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_14" type="checkbox" name="ctl00$cphPage$ListBox2$14" value="136"><label for="ctl00_cphPage_ListBox2_14">Suger Beet(چقندر)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_15" type="checkbox" name="ctl00$cphPage$ListBox2$15" value="125"><label for="ctl00_cphPage_ListBox2_15">sugarcane(گنڈ یری)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_16" type="checkbox" name="ctl00$cphPage$ListBox2$16" value="7"><label for="ctl00_cphPage_ListBox2_16">Sugar</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_17" type="checkbox" name="ctl00$cphPage$ListBox2$17" value="80"><label for="ctl00_cphPage_ListBox2_17">Strawberry</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_18" type="checkbox" name="ctl00$cphPage$ListBox2$18" value="27"><label for="ctl00_cphPage_ListBox2_18">Spinach</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_19" type="checkbox" name="ctl00$cphPage$ListBox2$19" value="19"><label for="ctl00_cphPage_ListBox2_19">Sorghum</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_20" type="checkbox" name="ctl00$cphPage$ListBox2$20" value="118"><label for="ctl00_cphPage_ListBox2_20">Sesame(تِل)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_21" type="checkbox" name="ctl00$cphPage$ListBox2$21" value="49"><label for="ctl00_cphPage_ListBox2_21">Seed Cotton(Phutti)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_22" type="checkbox" name="ctl00$cphPage$ListBox2$22" value="113"><label for="ctl00_cphPage_ListBox2_22">Rice Kainat (New)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_23" type="checkbox" name="ctl00$cphPage$ListBox2$23" value="57"><label for="ctl00_cphPage_ListBox2_23">Rice Basmati Super (Old)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_24" type="checkbox" name="ctl00$cphPage$ListBox2$24" value="3"><label for="ctl00_cphPage_ListBox2_24">Rice Basmati Super (New)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_25" type="checkbox" name="ctl00$cphPage$ListBox2$25" value="58"><label for="ctl00_cphPage_ListBox2_25">Rice Basmati (385)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_26" type="checkbox" name="ctl00$cphPage$ListBox2$26" value="4"><label for="ctl00_cphPage_ListBox2_26">Rice (IRRI)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_27" type="checkbox" name="ctl00$cphPage$ListBox2$27" value="29"><label for="ctl00_cphPage_ListBox2_27">Red Chilli Whole (Dry)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_28" type="checkbox" name="ctl00$cphPage$ListBox2$28" value="20"><label for="ctl00_cphPage_ListBox2_28">RapeSeed (Torya)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_29" type="checkbox" name="ctl00$cphPage$ListBox2$29" value="37"><label for="ctl00_cphPage_ListBox2_29">Radish</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_30" type="checkbox" name="ctl00$cphPage$ListBox2$30" value="33"><label for="ctl00_cphPage_ListBox2_30">Pumpkin</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_31" type="checkbox" name="ctl00$cphPage$ListBox2$31" value="134"><label for="ctl00_cphPage_ListBox2_31">Potato Sugar free</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_32" type="checkbox" name="ctl00$cphPage$ListBox2$32" value="22"><label for="ctl00_cphPage_ListBox2_32">Potato Store</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_33" type="checkbox" name="ctl00$cphPage$ListBox2$33" value="21"><label for="ctl00_cphPage_ListBox2_33">Potato Fresh</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_34" type="checkbox" name="ctl00$cphPage$ListBox2$34" value="46"><label for="ctl00_cphPage_ListBox2_34">Pomegranate(Kandhari)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_35" type="checkbox" name="ctl00$cphPage$ListBox2$35" value="59"><label for="ctl00_cphPage_ListBox2_35">Pomegranate(Badana)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_36" type="checkbox" name="ctl00$cphPage$ListBox2$36" value="95"><label for="ctl00_cphPage_ListBox2_36">Pomegranate Desi</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_37" type="checkbox" name="ctl00$cphPage$ListBox2$37" value="90"><label for="ctl00_cphPage_ListBox2_37">Plum</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_38" type="checkbox" name="ctl00$cphPage$ListBox2$38" value="110"><label for="ctl00_cphPage_ListBox2_38">Persimmon(جاپانی پھل)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_39" type="checkbox" name="ctl00$cphPage$ListBox2$39" value="35"><label for="ctl00_cphPage_ListBox2_39">Peas</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_40" type="checkbox" name="ctl00$cphPage$ListBox2$40" value="98"><label for="ctl00_cphPage_ListBox2_40">Pear</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_41" type="checkbox" name="ctl00$cphPage$ListBox2$41" value="89"><label for="ctl00_cphPage_ListBox2_41">Peach Special</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_42" type="checkbox" name="ctl00$cphPage$ListBox2$42" value="88"><label for="ctl00_cphPage_ListBox2_42">Peach</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_43" type="checkbox" name="ctl00$cphPage$ListBox2$43" value="124"><label for="ctl00_cphPage_ListBox2_43">Papaya(پپیتا)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_44" type="checkbox" name="ctl00$cphPage$ListBox2$44" value="112"><label for="ctl00_cphPage_ListBox2_44">Paddy Kainat</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_45" type="checkbox" name="ctl00$cphPage$ListBox2$45" value="5"><label for="ctl00_cphPage_ListBox2_45">Paddy Basmati</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_46" type="checkbox" name="ctl00$cphPage$ListBox2$46" value="6"><label for="ctl00_cphPage_ListBox2_46">Paddy (IRRI)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_47" type="checkbox" name="ctl00$cphPage$ListBox2$47" value="44"><label for="ctl00_cphPage_ListBox2_47">Orange(100Pcs)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_48" type="checkbox" name="ctl00$cphPage$ListBox2$48" value="23"><label for="ctl00_cphPage_ListBox2_48">Onion</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_49" type="checkbox" name="ctl00$cphPage$ListBox2$49" value="122"><label for="ctl00_cphPage_ListBox2_49">Mustard seed</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_50" type="checkbox" name="ctl00$cphPage$ListBox2$50" value="108"><label for="ctl00_cphPage_ListBox2_50">Mustard Greens(ساگ سرسوں)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_51" type="checkbox" name="ctl00$cphPage$ListBox2$51" value="60"><label for="ctl00_cphPage_ListBox2_51">Musambi(100Pcs)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_52" type="checkbox" name="ctl00$cphPage$ListBox2$52" value="12"><label for="ctl00_cphPage_ListBox2_52">Moong Pulse</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_53" type="checkbox" name="ctl00$cphPage$ListBox2$53" value="11"><label for="ctl00_cphPage_ListBox2_53">Moong</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_54" type="checkbox" name="ctl00$cphPage$ListBox2$54" value="106"><label for="ctl00_cphPage_ListBox2_54">Mongray</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_55" type="checkbox" name="ctl00$cphPage$ListBox2$55" value="115"><label for="ctl00_cphPage_ListBox2_55">Mint(پودینہ)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_56" type="checkbox" name="ctl00$cphPage$ListBox2$56" value="18"><label for="ctl00_cphPage_ListBox2_56">Millet</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_57" type="checkbox" name="ctl00$cphPage$ListBox2$57" value="75"><label for="ctl00_cphPage_ListBox2_57">Melon</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_58" type="checkbox" name="ctl00$cphPage$ListBox2$58" value="15"><label for="ctl00_cphPage_ListBox2_58">Masoor Whole(local)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_59" type="checkbox" name="ctl00$cphPage$ListBox2$59" value="70"><label for="ctl00_cphPage_ListBox2_59">Masoor Whole (Imported)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_60" type="checkbox" name="ctl00$cphPage$ListBox2$60" value="16"><label for="ctl00_cphPage_ListBox2_60">Masoor Pulse(local)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_61" type="checkbox" name="ctl00$cphPage$ListBox2$61" value="72"><label for="ctl00_cphPage_ListBox2_61">Masoor Pulse (Imported)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_62" type="checkbox" name="ctl00$cphPage$ListBox2$62" value="66"><label for="ctl00_cphPage_ListBox2_62">Mash Pulse(local)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_63" type="checkbox" name="ctl00$cphPage$ListBox2$63" value="14"><label for="ctl00_cphPage_ListBox2_63">Mash Pulse(Imported) washed</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_64" type="checkbox" name="ctl00$cphPage$ListBox2$64" value="13"><label for="ctl00_cphPage_ListBox2_64">Mash</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_65" type="checkbox" name="ctl00$cphPage$ListBox2$65" value="56"><label for="ctl00_cphPage_ListBox2_65">Mango(Sindhri)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_66" type="checkbox" name="ctl00$cphPage$ListBox2$66" value="55"><label for="ctl00_cphPage_ListBox2_66">Mango(Desahri)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_67" type="checkbox" name="ctl00$cphPage$ListBox2$67" value="48"><label for="ctl00_cphPage_ListBox2_67">Mango(Chounsa)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_68" type="checkbox" name="ctl00$cphPage$ListBox2$68" value="62"><label for="ctl00_cphPage_ListBox2_68">Mango(Anwer Ratol)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_69" type="checkbox" name="ctl00$cphPage$ListBox2$69" value="91"><label for="ctl00_cphPage_ListBox2_69">Mango Saharni</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_70" type="checkbox" name="ctl00$cphPage$ListBox2$70" value="92"><label for="ctl00_cphPage_ListBox2_70">Mango Desi</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_71" type="checkbox" name="ctl00$cphPage$ListBox2$71" value="78"><label for="ctl00_cphPage_ListBox2_71">Mango (Malda)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_72" type="checkbox" name="ctl00$cphPage$ListBox2$72" value="17"><label for="ctl00_cphPage_ListBox2_72">Maize</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_73" type="checkbox" name="ctl00$cphPage$ListBox2$73" value="79"><label for="ctl00_cphPage_ListBox2_73">Lychee</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_74" type="checkbox" name="ctl00$cphPage$ListBox2$74" value="140"><label for="ctl00_cphPage_ListBox2_74">Loquat</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_75" type="checkbox" name="ctl00$cphPage$ListBox2$75" value="83"><label for="ctl00_cphPage_ListBox2_75">Lemon (Other)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_76" type="checkbox" name="ctl00$cphPage$ListBox2$76" value="86"><label for="ctl00_cphPage_ListBox2_76">Lemon (Desi)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_77" type="checkbox" name="ctl00$cphPage$ListBox2$77" value="87"><label for="ctl00_cphPage_ListBox2_77">Lemon (China)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_78" type="checkbox" name="ctl00$cphPage$ListBox2$78" value="30"><label for="ctl00_cphPage_ListBox2_78">Lady Finger/Okra (بھنڈی توری)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_79" type="checkbox" name="ctl00$cphPage$ListBox2$79" value="45"><label for="ctl00_cphPage_ListBox2_79">Kinnow (100Pcs)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_80" type="checkbox" name="ctl00$cphPage$ListBox2$80" value="119"><label for="ctl00_cphPage_ListBox2_80">jujube(بیر)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_81" type="checkbox" name="ctl00$cphPage$ListBox2$81" value="104"><label for="ctl00_cphPage_ListBox2_81">Jaman</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_82" type="checkbox" name="ctl00$cphPage$ListBox2$82" value="65"><label for="ctl00_cphPage_ListBox2_82">Jaggery (گڑ)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_83" type="checkbox" name="ctl00$cphPage$ListBox2$83" value="43"><label for="ctl00_cphPage_ListBox2_83">Guava</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_84" type="checkbox" name="ctl00$cphPage$ListBox2$84" value="63"><label for="ctl00_cphPage_ListBox2_84">Groundnut</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_85" type="checkbox" name="ctl00$cphPage$ListBox2$85" value="129"><label for="ctl00_cphPage_ListBox2_85">Green Onion</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_86" type="checkbox" name="ctl00$cphPage$ListBox2$86" value="52"><label for="ctl00_cphPage_ListBox2_86">Green Fodder</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_87" type="checkbox" name="ctl00$cphPage$ListBox2$87" value="84"><label for="ctl00_cphPage_ListBox2_87">Green Chilli</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_88" type="checkbox" name="ctl00$cphPage$ListBox2$88" value="126"><label for="ctl00_cphPage_ListBox2_88">green chickpeas(چھولیا)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_89" type="checkbox" name="ctl00$cphPage$ListBox2$89" value="97"><label for="ctl00_cphPage_ListBox2_89">Grapes Sundekhani</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_90" type="checkbox" name="ctl00$cphPage$ListBox2$90" value="96"><label for="ctl00_cphPage_ListBox2_90">Grapes Gola</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_91" type="checkbox" name="ctl00$cphPage$ListBox2$91" value="47"><label for="ctl00_cphPage_ListBox2_91">Grapes (Other)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_92" type="checkbox" name="ctl00$cphPage$ListBox2$92" value="61"><label for="ctl00_cphPage_ListBox2_92">Grapefruit(100Pcs)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_93" type="checkbox" name="ctl00$cphPage$ListBox2$93" value="8"><label for="ctl00_cphPage_ListBox2_93">Gram White(local)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_94" type="checkbox" name="ctl00$cphPage$ListBox2$94" value="67"><label for="ctl00_cphPage_ListBox2_94">Gram White(Imported)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_95" type="checkbox" name="ctl00$cphPage$ListBox2$95" value="10"><label for="ctl00_cphPage_ListBox2_95">Gram Pulse</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_96" type="checkbox" name="ctl00$cphPage$ListBox2$96" value="99"><label for="ctl00_cphPage_ListBox2_96">Gram Flour (بیسن)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_97" type="checkbox" name="ctl00$cphPage$ListBox2$97" value="9"><label for="ctl00_cphPage_ListBox2_97">Gram Black</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_98" type="checkbox" name="ctl00$cphPage$ListBox2$98" value="25"><label for="ctl00_cphPage_ListBox2_98">Ginger(China)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_99" type="checkbox" name="ctl00$cphPage$ListBox2$99" value="68"><label for="ctl00_cphPage_ListBox2_99">Ginger (Thai)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_100" type="checkbox" name="ctl00$cphPage$ListBox2$100" value="73"><label for="ctl00_cphPage_ListBox2_100">Garlic (Local)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_101" type="checkbox" name="ctl00$cphPage$ListBox2$101" value="24"><label for="ctl00_cphPage_ListBox2_101">Garlic (China)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_102" type="checkbox" name="ctl00$cphPage$ListBox2$102" value="128"><label for="ctl00_cphPage_ListBox2_102">feutral early(100 Pcs) فروٹر</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_103" type="checkbox" name="ctl00$cphPage$ListBox2$103" value="105"><label for="ctl00_cphPage_ListBox2_103">Fenugreek(میتھی)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_104" type="checkbox" name="ctl00$cphPage$ListBox2$104" value="141"><label for="ctl00_cphPage_ListBox2_104">Dates(Irani)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_105" type="checkbox" name="ctl00$cphPage$ListBox2$105" value="81"><label for="ctl00_cphPage_ListBox2_105">Dates (Aseel)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_106" type="checkbox" name="ctl00$cphPage$ListBox2$106" value="74"><label for="ctl00_cphPage_ListBox2_106">Cucumber (Kheera)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_107" type="checkbox" name="ctl00$cphPage$ListBox2$107" value="114"><label for="ctl00_cphPage_ListBox2_107">Coriander (دھنیا)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_108" type="checkbox" name="ctl00$cphPage$ListBox2$108" value="120"><label for="ctl00_cphPage_ListBox2_108">Cocunut</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_109" type="checkbox" name="ctl00$cphPage$ListBox2$109" value="107"><label for="ctl00_cphPage_ListBox2_109">Cocoyam(اروی)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_110" type="checkbox" name="ctl00$cphPage$ListBox2$110" value="34"><label for="ctl00_cphPage_ListBox2_110">Cauliflower</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_111" type="checkbox" name="ctl00$cphPage$ListBox2$111" value="109"><label for="ctl00_cphPage_ListBox2_111">Carrot China</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_112" type="checkbox" name="ctl00$cphPage$ListBox2$112" value="38"><label for="ctl00_cphPage_ListBox2_112">Carrot</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_113" type="checkbox" name="ctl00$cphPage$ListBox2$113" value="85"><label for="ctl00_cphPage_ListBox2_113">Capsicum (شملہ مرچ)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_114" type="checkbox" name="ctl00$cphPage$ListBox2$114" value="117"><label for="ctl00_cphPage_ListBox2_114">Canola</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_115" type="checkbox" name="ctl00$cphPage$ListBox2$115" value="64"><label for="ctl00_cphPage_ListBox2_115">Cabbage</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_116" type="checkbox" name="ctl00$cphPage$ListBox2$116" value="127"><label for="ctl00_cphPage_ListBox2_116">Brown Sugar(شکر)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_117" type="checkbox" name="ctl00$cphPage$ListBox2$117" value="28"><label for="ctl00_cphPage_ListBox2_117">Brinjal</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_118" type="checkbox" name="ctl00$cphPage$ListBox2$118" value="102"><label for="ctl00_cphPage_ListBox2_118">Bottle Gourd (کدو)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_119" type="checkbox" name="ctl00$cphPage$ListBox2$119" value="31"><label for="ctl00_cphPage_ListBox2_119">Bitter Gourd (کریلا)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_120" type="checkbox" name="ctl00$cphPage$ListBox2$120" value="130"><label for="ctl00_cphPage_ListBox2_120">Batho</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_121" type="checkbox" name="ctl00$cphPage$ListBox2$121" value="138"><label for="ctl00_cphPage_ListBox2_121">Barley(جو)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_122" type="checkbox" name="ctl00$cphPage$ListBox2$122" value="51"><label for="ctl00_cphPage_ListBox2_122">Banola Cake</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_123" type="checkbox" name="ctl00$cphPage$ListBox2$123" value="50"><label for="ctl00_cphPage_ListBox2_123">Banola</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_124" type="checkbox" name="ctl00$cphPage$ListBox2$124" value="42"><label for="ctl00_cphPage_ListBox2_124">Banana(DOZEN)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_125" type="checkbox" name="ctl00$cphPage$ListBox2$125" value="93"><label for="ctl00_cphPage_ListBox2_125">Apricot Yellow</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_126" type="checkbox" name="ctl00$cphPage$ListBox2$126" value="94"><label for="ctl00_cphPage_ListBox2_126">Apricot White</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_127" type="checkbox" name="ctl00$cphPage$ListBox2$127" value="39"><label for="ctl00_cphPage_ListBox2_127">Apple Kala Kullu (Pahari)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_128" type="checkbox" name="ctl00$cphPage$ListBox2$128" value="77"><label for="ctl00_cphPage_ListBox2_128">Apple Kala Kullu (Madani)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_129" type="checkbox" name="ctl00$cphPage$ListBox2$129" value="40"><label for="ctl00_cphPage_ListBox2_129">Apple (Golden)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_130" type="checkbox" name="ctl00$cphPage$ListBox2$130" value="82"><label for="ctl00_cphPage_ListBox2_130">Apple (Gatcha)</label></td>
+	</tr><tr>
+		<td><input id="ctl00_cphPage_ListBox2_131" type="checkbox" name="ctl00$cphPage$ListBox2$131" value="41"><label for="ctl00_cphPage_ListBox2_131">Apple (Ammre)</label></td>
+	</tr>
+</tbody></table></div>
+      
+    <div id="ctl00_cphPage_Panel3" class="popupControl" style="display: none; visibility: hidden; position: absolute;">
+	
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$cphPage$ScriptManager1', 'aspnetForm', ['tctl00$cphPage$UpdatePanel1','','tctl00$cphPage$UpdatePanel3',''], [], [], 90, 'ctl00');
+	//]]>
+</script>
+
+       
+<input type="hidden" name="ctl00$cphPage$height" id="ctl00_cphPage_height">
+        <div id="ctl00_cphPage_UpdatePanel1">
+		
+
+               <center>
+                    <table id="ctl00_cphPage_Calendar1" cellspacing="0" cellpadding="1" title="Calendar" style="color:Black;background-color:White;border-color:#999999;border-width:1px;border-style:solid;font-family:Verdana;font-size:8pt;width:160px;border-collapse:collapse;">
+			<tbody><tr><td colspan="7" style="background-color:#999999;border-color:Black;"><table cellspacing="0" style="color:Black;font-family:Verdana;font-size:7pt;font-weight:bold;width:100%;border-collapse:collapse;">
+				<tbody><tr><td valign="bottom" style="width:15%;"><a href="javascript:__doPostBack('ctl00$cphPage$Calendar1','V9648')" style="color:Black" title="Go to the previous month">&lt;</a></td><td align="center" style="width:70%;">July 2026</td><td align="right" valign="bottom" style="width:15%;"><a href="javascript:__doPostBack('ctl00$cphPage$Calendar1','V9709')" style="color:Black" title="Go to the next month">&gt;</a></td></tr>
+			</tbody></table></td></tr><tr><th align="center" abbr="Sunday" scope="col" style="background-color:#CCCCCC;font-size:7pt;font-weight:bold;">Su</th><th align="center" abbr="Monday" scope="col" style="background-color:#CCCCCC;font-size:7pt;font-weight:bold;">Mo</th><th align="center" abbr="Tuesday" scope="col" style="background-color:#CCCCCC;font-size:7pt;font-weight:bold;">Tu</th><th align="center" abbr="Wednesday" scope="col" style="background-color:#CCCCCC;font-size:7pt;font-weight:bold;">We</th><th align="center" abbr="Thursday" scope="col" style="background-color:#CCCCCC;font-size:7pt;font-weight:bold;">Th</th><th align="center" abbr="Friday" scope="col" style="background-color:#CCCCCC;font-size:7pt;font-weight:bold;">Fr</th><th align="center" abbr="Saturday" scope="col" style="background-color:#CCCCCC;font-size:7pt;font-weight:bold;">Sa</th></tr><tr><td align="center" style="color:Gray;background-color:#FFFFCC;width:14%;"><a href="javascript:__doPostBack('ctl00$cphPage$Calendar1','9675')" style="color:Gray" title="June 28">28</a></td><td align="center" style="color:Gray;width:14%;"><a href="javascript:__doPostBack('ctl00$cphPage$Calendar1','9676')" style="color:Gray" title="June 29">29</a></td><td align="center" style="color:Gray;width:14%;"><a href="javascript:__doPostBack('ctl00$cphPage$Calendar1','9677')" style="color:Gray" title="June 30">30</a></td><td align="center" style="width:14%;"><a href="javascript:__doPostBack('ctl00$cphPage$Calendar1','9678')" style="color:Black" title="July 1">1</a></td><td align="center" style="width:14%;"><a href="javascript:__doPostBack('ctl00$cphPage$Calendar1','9679')" style="color:Black" title="July 2">2</a></td><td align="center" style="width:14%;"><a href="javascript:__doPostBack('ctl00$cphPage$Calendar1','9680')" style="color:Black" title="July 3">3</a></td><td align="center" style="background-color:#FFFFCC;width:14%;"><a href="javascript:__doPostBack('ctl00$cphPage$Calendar1','9681')" style="color:Black" title="July 4">4</a></td></tr><tr><td align="center" style="background-color:#FFFFCC;width:14%;"><a href="javascript:__doPostBack('ctl00$cphPage$Calendar1','9682')" style="color:Black" title="July 5">5</a></td><td align="center" style="width:14%;"><a href="javascript:__doPostBack('ctl00$cphPage$Calendar1','9683')" style="color:Black" title="July 6">6</a></td><td align="center" style="width:14%;"><a href="javascript:__doPostBack('ctl00$cphPage$Calendar1','9684')" style="color:Black" title="July 7">7</a></td><td align="center" style="width:14%;"><a href="javascript:__doPostBack('ctl00$cphPage$Calendar1','9685')" style="color:Black" title="July 8">8</a></td><td align="center" style="width:14%;"><a href="javascript:__doPostBack('ctl00$cphPage$Calendar1','9686')" style="color:Black" title="July 9">9</a></td><td align="center" style="width:14%;"><a href="javascript:__doPostBack('ctl00$cphPage$Calendar1','9687')" style="color:Black" title="July 10">10</a></td><td align="center" style="background-color:#FFFFCC;width:14%;"><a href="javascript:__doPostBack('ctl00$cphPage$Calendar1','9688')" style="color:Black" title="July 11">11</a></td></tr><tr><td align="center" style="background-color:#FFFFCC;width:14%;"><a href="javascript:__doPostBack('ctl00$cphPage$Calendar1','9689')" style="color:Black" title="July 12">12</a></td><td align="center" style="width:14%;"><a href="javascript:__doPostBack('ctl00$cphPage$Calendar1','9690')" style="color:Black" title="July 13">13</a></td><td align="center" style="width:14%;"><a href="javascript:__doPostBack('ctl00$cphPage$Calendar1','9691')" style="color:Black" title="July 14">14</a></td><td align="center" style="width:14%;"><a href="javascript:__doPostBack('ctl00$cphPage$Calendar1','9692')" style="color:Black" title="July 15">15</a></td><td align="center" style="width:14%;"><a href="javascript:__doPostBack('ctl00$cphPage$Calendar1','9693')" style="color:Black" title="July 16">16</a></td><td align="center" style="width:14%;"><a href="javascript:__doPostBack('ctl00$cphPage$Calendar1','9694')" style="color:Black" title="July 17">17</a></td><td align="center" style="background-color:#FFFFCC;width:14%;"><a href="javascript:__doPostBack('ctl00$cphPage$Calendar1','9695')" style="color:Black" title="July 18">18</a></td></tr><tr><td align="center" style="background-color:#FFFFCC;width:14%;"><a href="javascript:__doPostBack('ctl00$cphPage$Calendar1','9696')" style="color:Black" title="July 19">19</a></td><td align="center" style="width:14%;"><a href="javascript:__doPostBack('ctl00$cphPage$Calendar1','9697')" style="color:Black" title="July 20">20</a></td><td align="center" style="width:14%;"><a href="javascript:__doPostBack('ctl00$cphPage$Calendar1','9698')" style="color:Black" title="July 21">21</a></td><td align="center" style="width:14%;"><a href="javascript:__doPostBack('ctl00$cphPage$Calendar1','9699')" style="color:Black" title="July 22">22</a></td><td align="center" style="width:14%;"><a href="javascript:__doPostBack('ctl00$cphPage$Calendar1','9700')" style="color:Black" title="July 23">23</a></td><td align="center" style="width:14%;"><a href="javascript:__doPostBack('ctl00$cphPage$Calendar1','9701')" style="color:Black" title="July 24">24</a></td><td align="center" style="background-color:#FFFFCC;width:14%;"><a href="javascript:__doPostBack('ctl00$cphPage$Calendar1','9702')" style="color:Black" title="July 25">25</a></td></tr><tr><td align="center" style="background-color:#FFFFCC;width:14%;"><a href="javascript:__doPostBack('ctl00$cphPage$Calendar1','9703')" style="color:Black" title="July 26">26</a></td><td align="center" style="width:14%;"><a href="javascript:__doPostBack('ctl00$cphPage$Calendar1','9704')" style="color:Black" title="July 27">27</a></td><td align="center" style="width:14%;"><a href="javascript:__doPostBack('ctl00$cphPage$Calendar1','9705')" style="color:Black" title="July 28">28</a></td><td align="center" style="width:14%;"><a href="javascript:__doPostBack('ctl00$cphPage$Calendar1','9706')" style="color:Black" title="July 29">29</a></td><td align="center" style="width:14%;"><a href="javascript:__doPostBack('ctl00$cphPage$Calendar1','9707')" style="color:Black" title="July 30">30</a></td><td align="center" style="color:Black;background-color:#CCCCCC;width:14%;"><a href="javascript:__doPostBack('ctl00$cphPage$Calendar1','9708')" style="color:Black" title="July 31">31</a></td><td align="center" style="color:Gray;background-color:#FFFFCC;width:14%;"><a href="javascript:__doPostBack('ctl00$cphPage$Calendar1','9709')" style="color:Gray" title="August 1">1</a></td></tr><tr><td align="center" style="color:Gray;background-color:#FFFFCC;width:14%;"><a href="javascript:__doPostBack('ctl00$cphPage$Calendar1','9710')" style="color:Gray" title="August 2">2</a></td><td align="center" style="color:Gray;width:14%;"><a href="javascript:__doPostBack('ctl00$cphPage$Calendar1','9711')" style="color:Gray" title="August 3">3</a></td><td align="center" style="color:Gray;width:14%;"><a href="javascript:__doPostBack('ctl00$cphPage$Calendar1','9712')" style="color:Gray" title="August 4">4</a></td><td align="center" style="color:Gray;width:14%;"><a href="javascript:__doPostBack('ctl00$cphPage$Calendar1','9713')" style="color:Gray" title="August 5">5</a></td><td align="center" style="color:Gray;width:14%;"><a href="javascript:__doPostBack('ctl00$cphPage$Calendar1','9714')" style="color:Gray" title="August 6">6</a></td><td align="center" style="color:Gray;width:14%;"><a href="javascript:__doPostBack('ctl00$cphPage$Calendar1','9715')" style="color:Gray" title="August 7">7</a></td><td align="center" style="color:Gray;background-color:#FFFFCC;width:14%;"><a href="javascript:__doPostBack('ctl00$cphPage$Calendar1','9716')" style="color:Gray" title="August 8">8</a></td></tr>
+		</tbody></table>
+                    
+                </center>
+                  
+            
+	</div>
+    
+</div>
+
+
+    <br>
+ 
+    <p></p> 
+    
+   
+<p class="separated">
+    <input type="submit" name="ctl00$cphPage$ReminderButton" value="Show prices" id="ctl00_cphPage_ReminderButton">
+</p>
+ 
+ <div id="ctl00_cphPage_UpdatePanel3">
+	
+<br><div id="selectedcommodity"><h2>City:  <b><span id="ctl00_cphPage_lblMsg">MultanRoadLahore</span> <span id="ctl00_cphPage_lblquintal" style="color:Red;font-size:8pt;">[ All Prices are in Rs/100Kg specified otherwise ]</span></b></h2></div><p><a id="ctl00_cphPage_LinkButton1" href="javascript:__doPostBack('ctl00$cphPage$LinkButton1','')"></a></p><div id="ctl00_cphPage_Panel4" class="modalPopup" style="DISPLAY: none">
+		
+        <p></p>
+        <p><input type="radio" name="Radio" id="RadioA" onclick="styleToSelect = 'sampleStyleA';" checked="checked"><label for="RadioA" class="sampleStyleA" style="padding:3px;">Weakly continuation chart</label></p>
+        <p><input type="radio" name="Radio" id="RadioB" onclick="styleToSelect = 'sampleStyleB';"><label for="RadioB" class="sampleStyleB" style="padding:3px;">Monthly continuation chart</label></p>
+        <p><input type="radio" name="Radio" id="RadioC" onclick="styleToSelect = 'sampleStyleC';"><label for="RadioC" class="sampleStyleC" style="padding:3px;">Yearly continuation chart</label></p>
+   
+        <p style="text-align:center;">
+        <input type="submit" name="ctl00$cphPage$OkButton" value="OK" id="ctl00_cphPage_OkButton">
+        <input type="submit" name="ctl00$cphPage$CancelButton" value="Cancel" id="ctl00_cphPage_CancelButton">
+           
+            <input type="hidden" name="ctl00$cphPage$myInput" id="ctl00_cphPage_myInput">
+            
+        </p>
+    
+	</div>
+</div>
+<div id="amis_prices">
+     
+ 
+    
+      
+
+             
+        
+
+</div>
+         <table id="ctl00_cphPage_tabletext">
+
+</table>
+  <table>
+      <tbody><tr> <td id="ctl00_cphPage_Grd"> <table border="0" cellpadding="0" cellspacing="0" width="%100"><tbody><tr style="background-color:#FFFFE0;font-family:verdana;"><td style="border-right: 1px solid black;font-family:verdana;">&nbsp;Dated:31-07-2026</td><td style="border-right: 1px solid black;font-family:verdana;">&nbsp;Graph</td><td style="border-right: 1px solid black;font-family:verdana;">&nbsp;Min</td><td style="border-right: 1px solid black;font-family:verdana;;">&nbsp;Max</td><td style="border-right: 1px solid black;font-family:verdana;">&nbsp;FQP</td><td style="font-family:verdana;">&nbsp;Quantity</td></tr></tbody></table></td>
+</tr>
+  </tbody></table>
+ 
+    </div>
+     
+    <div class="demobottom"></div>
+    
+    <h2><strong>1 Quintal = 100 Kg</strong></h2>
+    
+
+
+</div>
+      
+            </div> 
+                                 </div> 
+    </div>
+   
+ <link href="~/css/StyleSheet.css" rel="stylesheet" type="text/css">
+<div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div></div></div></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="md" id="footer">
+    <a id="ctl00_ModuleFooter_HyperLink1" href="Default.aspx"><img id="ctl00_ModuleFooter_Image1" src="http://www.amis.pk/images/amis-urdu-new.png" longdesc="Default.aspx"><br>
+    </a>
+    <br>
+<ul id="overture">
+  <li class="first"><a href="/Advertise.aspx">Advertisements/Tenders </a>
+  
+      <img id="ctl00_ModuleFooter_imagefooter" src="http://www.amis.pk/images/new38.gif">
+  </li><li><a href="/Search.aspx">Search 
+  Marketing</a> 
+  
+  
+  </li><li><a href="/Contactus.aspx">Contact Us</a>
+  </li>
+  <li><a href="https://play.google.com/store/apps/details?id=pitb.gov.pk.amis">Download Android Application <img src="images/giphy.gif" style="height:2%;width:2%;"> </a>
+  </li>
+  </ul>
+<ul id="copyright">
+  <li class="first">Copyright © 2006-2026 Agriculture Marketing Information Service(AMIS), Directorate of Agriculture (Economics &amp; Marketing) Punjab, Lahore. All rights reserved.
+  
+  <a href="/Default.aspx">AMIS Home</a> 
+  
+  </li></ul>
+  like us<br><div class="fb-like fb_iframe_widget" data-href="https://www.facebook.com/Agriculture-Marketing-Information-Service-1681750532067935" data-width="50%" data-layout="standard" data-action="like" data-show-faces="true" data-share="true" fb-xfbml-state="rendered" fb-iframe-plugin-query="action=like&amp;app_id=&amp;container_width=1268&amp;href=https%3A%2F%2Fwww.facebook.com%2FAgriculture-Marketing-Information-Service-1681750532067935&amp;layout=standard&amp;locale=en_US&amp;sdk=joey&amp;share=true&amp;show_faces=true&amp;width=50%25"><span style="vertical-align: top; width: 0px; height: 0px; overflow: hidden;"><iframe name="f38a5fb0c46a8a977" height="1000px" data-testid="fb:like Facebook Social Plugin" title="fb:like Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v2.8/plugins/like.php?action=like&amp;app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df6f528644c6244348%26domain%3Dwww.amis.pk%26is_canvas%3Dfalse%26origin%3Dhttp%253A%252F%252Fwww.amis.pk%252Ff4c2221cfe693432b%26relation%3Dparent.parent&amp;container_width=1268&amp;href=https%3A%2F%2Fwww.facebook.com%2FAgriculture-Marketing-Information-Service-1681750532067935&amp;layout=standard&amp;locale=en_US&amp;sdk=joey&amp;share=true&amp;show_faces=true&amp;width=50%25" style="border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; visibility: visible; width: 0px; height: 0px;"></iframe></span></div>
+  
+
+
+</div>
+ 
+
+  
+
+                      
+    </div> </div>
+</div> 
+</div> 
+    
+    
+
+
+
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.PopupControlBehavior, {"dynamicServicePath":"/ViewPrices.aspx","id":"ctl00_cphPage_PopupControlExtender1","popupControlID":"ctl00_cphPage_Panel3","position":3}, null, null, $get("ctl00_cphPage_DateTextBox"));
+});
+//]]>
+</script>
+</form>
+
+
+</body></html>

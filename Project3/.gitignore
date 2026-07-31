@@ -1,0 +1,29 @@
+# Python Bytecode and Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Streamlit Configuration & Secrets
+.streamlit/secrets.toml
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project Data & Binary Artifacts
+# Add these if you don't want to upload large data or model files to GitHub
+# multan_crop_data/
+# *.pkl
+# *.json
